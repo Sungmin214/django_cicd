@@ -22,4 +22,6 @@ app_name = 'movies'
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('create/', views.create, name='movie_create'),
+    path('delete/<int:movie_number>/', views.delete_movie, name='delete_movie'),
 ]

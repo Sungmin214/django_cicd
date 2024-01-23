@@ -7,5 +7,5 @@ class Movies(models.Model):
     content = models.TextField()
     created_date = models.DateTimeField(auto_now_add=True)
 
-    class Meta:
-        db_table = 'movie_table'
+    # class Meta:
+    #     db_table = 'movie_table'
